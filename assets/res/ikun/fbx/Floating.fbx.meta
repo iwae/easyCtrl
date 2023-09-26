@@ -1,0 +1,102 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "cb580189-635d-4d47-9707-b44e6db0354a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "a9047": {
+      "importer": "gltf-animation",
+      "uuid": "cb580189-635d-4d47-9707-b44e6db0354a@a9047",
+      "displayName": "",
+      "id": "a9047",
+      "name": "fly.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "7d2d9": {
+      "importer": "gltf-scene",
+      "uuid": "cb580189-635d-4d47-9707-b44e6db0354a@7d2d9",
+      "displayName": "",
+      "id": "7d2d9",
+      "name": "Floating.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "fly",
+            "from": 0,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "a9047"
+          }
+        ]
+      }
+    ],
+    "redirect": "cb580189-635d-4d47-9707-b44e6db0354a@7d2d9",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "cb580189-635d-4d47-9707-b44e6db0354a@7d2d9"
+      ]
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

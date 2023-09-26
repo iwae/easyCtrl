@@ -1,0 +1,102 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "669261d0-a00a-44c6-a2c0-41907b2d1bb6",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "24b84": {
+      "importer": "gltf-animation",
+      "uuid": "669261d0-a00a-44c6-a2c0-41907b2d1bb6@24b84",
+      "displayName": "",
+      "id": "24b84",
+      "name": "flip.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.9666666388511658
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1af2c": {
+      "importer": "gltf-scene",
+      "uuid": "669261d0-a00a-44c6-a2c0-41907b2d1bb6@1af2c",
+      "displayName": "",
+      "id": "1af2c",
+      "name": "Running Forward Flip.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.9666666388511658,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "flip",
+            "from": 0,
+            "to": 0.9666666388511658,
+            "wrapMode": 1,
+            "previousId": "24b84"
+          }
+        ]
+      }
+    ],
+    "redirect": "669261d0-a00a-44c6-a2c0-41907b2d1bb6@1af2c",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "669261d0-a00a-44c6-a2c0-41907b2d1bb6@1af2c"
+      ]
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "005aeac9-bf14-44e6-9df9-3bcbc7a6f703",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "005aeac9-bf14-44e6-9df9-3bcbc7a6f703@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "rap.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.233333110809326
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fb9c6": {
+      "importer": "gltf-scene",
+      "uuid": "005aeac9-bf14-44e6-9df9-3bcbc7a6f703@fb9c6",
+      "displayName": "",
+      "id": "fb9c6",
+      "name": "Rap.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 4.233333110809326,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "rap",
+            "from": 0,
+            "to": 4.233333110809326,
+            "wrapMode": 2,
+            "previousId": "18d6f"
+          }
+        ]
+      }
+    ],
+    "redirect": "005aeac9-bf14-44e6-9df9-3bcbc7a6f703@fb9c6",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "005aeac9-bf14-44e6-9df9-3bcbc7a6f703@fb9c6"
+      ]
+    }
+  }
+}

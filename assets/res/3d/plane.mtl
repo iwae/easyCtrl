@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "3c7cb8ea-e0ef-4740-8d67-b707061efdb5",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {},
+    {
+      "USE_EMISSIVE_MAP": true
+    },
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "lineWidth": 0.0001
+    },
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 35,
+        "g": 19,
+        "b": 42,
+        "a": 255
+      },
+      "rimLightColor": {
+        "__type__": "cc.Color",
+        "r": 115,
+        "g": 134,
+        "b": 102,
+        "a": 43
+      },
+      "shadeColor": {
+        "__type__": "cc.Color",
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 45
+      },
+      "diffuseWrap": 0.78,
+      "emissive": {
+        "__type__": "cc.Color",
+        "r": 231,
+        "g": 255,
+        "b": 105,
+        "a": 255
+      },
+      "emissiveMap": {
+        "__uuid__": "2648d340-5c08-49ca-a5fc-4a5d17451516@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      }
+    },
+    {}
+  ]
+}

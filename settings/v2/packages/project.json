@@ -1,0 +1,15 @@
+{
+  "__version__": "1.0.5",
+  "custom_joint_texture_layouts": [],
+  "general": {
+    "designResolution": {
+      "width": 1334,
+      "height": 750,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "defaultMaterial": ""
+  }
+}

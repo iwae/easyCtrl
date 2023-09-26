@@ -1,0 +1,225 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b",
+  "files": [],
+  "subMetas": {
+    "b3a55": {
+      "importer": "gltf-mesh",
+      "uuid": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@b3a55",
+      "displayName": "",
+      "id": "b3a55",
+      "name": "lanqiu_Material3.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 224
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bfae8": {
+      "importer": "texture",
+      "uuid": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@bfae8",
+      "displayName": "",
+      "id": "bfae8",
+      "name": "贴图 #3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/res/ikun/lanqiu.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ba23": {
+      "importer": "gltf-material",
+      "uuid": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@6ba23",
+      "displayName": "",
+      "id": "6ba23",
+      "name": "Material #41.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac611": {
+      "importer": "gltf-scene",
+      "uuid": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@ac611",
+      "displayName": "",
+      "id": "ac611",
+      "name": "lanqiu.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #3",
+        "uri": "db://assets/res/ikun/lanqiu.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "redirect": "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@ac611",
+    "assetFinder": {
+      "meshes": [
+        "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@b3a55"
+      ],
+      "skeletons": [],
+      "textures": [
+        "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@bfae8"
+      ],
+      "materials": [
+        "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@6ba23"
+      ],
+      "scenes": [
+        "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@ac611"
+      ]
+    },
+    "materials": {
+      "9e749e23-1a4e-4579-a19f-c37cde7f0e7b@6ba23": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "3c7cb8ea-e0ef-4740-8d67-b707061efdb5",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_OUTLINE_PASS": true
+          },
+          {
+            "USE_RIM_LIGHT": true,
+            "USE_ALBEDO_MAP": true,
+            "USE_SHADE_COLOR": true
+          },
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "lineWidth": 1.09,
+            "baseColor": {
+              "__type__": "cc.Color",
+              "r": 36,
+              "g": 33,
+              "b": 33,
+              "a": 255
+            }
+          },
+          {
+            "mainTexture": {
+              "__uuid__": "c9049722-64e1-47fb-a4bf-22a5feb9746f@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rimLightColor": {
+              "__type__": "cc.Color",
+              "r": 163,
+              "g": 160,
+              "b": 160,
+              "a": 4
+            },
+            "shadeColor": {
+              "__type__": "cc.Color",
+              "r": 102,
+              "g": 102,
+              "b": 102,
+              "a": 107
+            }
+          },
+          {}
+        ]
+      }
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

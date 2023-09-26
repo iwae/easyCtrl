@@ -1,0 +1,102 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "ed4b96c3-c8e6-41ef-8c54-fd9c815fc7b9",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "cf5ee": {
+      "importer": "gltf-animation",
+      "uuid": "ed4b96c3-c8e6-41ef-8c54-fd9c815fc7b9@cf5ee",
+      "displayName": "",
+      "id": "cf5ee",
+      "name": "walk.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.6000000238418579
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "269ec": {
+      "importer": "gltf-scene",
+      "uuid": "ed4b96c3-c8e6-41ef-8c54-fd9c815fc7b9@269ec",
+      "displayName": "",
+      "id": "269ec",
+      "name": "Catwalk Walking.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0.6000000238418579,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "walk",
+            "from": 0,
+            "to": 0.6000000238418579,
+            "wrapMode": 2,
+            "previousId": "cf5ee"
+          }
+        ]
+      }
+    ],
+    "redirect": "ed4b96c3-c8e6-41ef-8c54-fd9c815fc7b9@269ec",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "ed4b96c3-c8e6-41ef-8c54-fd9c815fc7b9@269ec"
+      ]
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

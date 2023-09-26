@@ -1,0 +1,106 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "4a9e0bb1-a3c8-48e0-a3e6-5e4f79bb8202",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "4a9e0bb1-a3c8-48e0-a3e6-5e4f79bb8202@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "basketball.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.9333332777023315
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "f3789": {
+      "importer": "gltf-scene",
+      "uuid": "4a9e0bb1-a3c8-48e0-a3e6-5e4f79bb8202@f3789",
+      "displayName": "",
+      "id": "f3789",
+      "name": "Basketball.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 1.9333332777023315,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "basketball",
+            "from": 0,
+            "to": 1.9333332777023315,
+            "wrapMode": 2,
+            "previousId": "18d6f"
+          }
+        ]
+      }
+    ],
+    "redirect": "4a9e0bb1-a3c8-48e0-a3e6-5e4f79bb8202@f3789",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "4a9e0bb1-a3c8-48e0-a3e6-5e4f79bb8202@f3789"
+      ]
+    }
+  }
+}

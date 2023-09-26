@@ -1,0 +1,104 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "3e0a2696-ffe2-4a42-b0ff-03bd8551f481",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c1b8f": {
+      "importer": "gltf-animation",
+      "uuid": "3e0a2696-ffe2-4a42-b0ff-03bd8551f481@c1b8f",
+      "displayName": "",
+      "id": "c1b8f",
+      "name": "dance.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 4.766666889190674
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "69dd9": {
+      "importer": "gltf-scene",
+      "uuid": "3e0a2696-ffe2-4a42-b0ff-03bd8551f481@69dd9",
+      "displayName": "",
+      "id": "69dd9",
+      "name": "Chicken Dance.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true,
+      "matchMeshNames": false
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 4.766666889190674,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "dance",
+            "from": 0,
+            "to": 4.766666889190674,
+            "wrapMode": 2,
+            "previousId": "c1b8f"
+          }
+        ]
+      }
+    ],
+    "redirect": "3e0a2696-ffe2-4a42-b0ff-03bd8551f481@69dd9",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "3e0a2696-ffe2-4a42-b0ff-03bd8551f481@69dd9"
+      ]
+    },
+    "mountAllAnimationsOnPrefab": true,
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

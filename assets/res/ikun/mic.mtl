@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.Material",
+  "_name": "",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "3c7cb8ea-e0ef-4740-8d67-b707061efdb5",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {},
+    {
+      "USE_SHADE_COLOR": true
+    },
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "lineWidth": 9.75
+    },
+    {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 51,
+        "g": 123,
+        "b": 201,
+        "a": 255
+      },
+      "shadeColor": {
+        "__type__": "cc.Color",
+        "r": 97,
+        "g": 47,
+        "b": 47,
+        "a": 49
+      },
+      "diffuseWrap": 0.799
+    },
+    {}
+  ]
+}
