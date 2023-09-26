@@ -23,7 +23,7 @@ https://www.cocos.com/en/creator-download
         .add("basketball",[KeyCode.KEY_C,KeyCode.KEY_X],this._basketballAction,this.labels[6])
 ```
 
-# Easy for runtime Keys Binding Replacement
+# Runtime Keys Binding Replacement Supports
 
 1 line code for keys binding replacement 
 
@@ -31,7 +31,7 @@ https://www.cocos.com/en/creator-download
   aa.ctrl.updateBinding(binding.nameLabel.string,binding.keyLabel);
 ```
 
-and supports combo!
+and supports Combos!!
 
 ![image](https://github.com/iwae/easyBinding/assets/26038745/57365647-3bb7-4a27-8fb5-a45b75993224)
 
