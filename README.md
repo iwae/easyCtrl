@@ -1,5 +1,5 @@
-# easyBinding
-easyBinding is a Cocos frame, which make key binding super easy, it also includes a controller that super smooth
+# easyCtrl
+easyCtrl is a Cocos frame, which make key binding super easy, it also includes a controller that super smooth
 
 # Made with Cocos Creator 3.8
 https://www.cocos.com/en/creator-download
